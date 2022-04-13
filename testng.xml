@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Calculator Tests" parallel="classes" thread-count="2">
+    <test name="Base Test">
+        <classes>
+            <class name="org.example.CalculatorTest" />
+        </classes>
+    </test>
+    <test name="Addition Test">
+        <classes>
+            <class name="org.example.AdditionTest" />
+        </classes>
+    </test>
+    <test name="Subtraction Test">
+        <classes>
+            <class name="org.example.SubtractionTest" />
+        </classes>
+    </test>
+    <test name="Multiplication Test">
+        <classes>
+            <class name="org.example.MultiplicationTest" />
+        </classes>
+    </test>
+    <test name="Division Test">
+        <classes>
+            <class name="org.example.DivisionTest" />
+        </classes>
+    </test>
+</suite>
